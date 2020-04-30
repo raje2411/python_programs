@@ -8,4 +8,3 @@ birth_date = "01-Dec-1966"
 # print("I was born on %s, and I'm %s years old" %(birth_date,age))
 print(f"My name is {first_name.upper()} {last_name.upper()}")
 print("I was born on %s, and I'm %s years old" %(birth_date.upper(),age))
-
