@@ -15,13 +15,14 @@ user12 = {'admin': True, 'active': False, 'name': 'Amar2'}
 users_dict_list = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10,user11,user12]
 
 # print(type(users_dict_list))
-
+line = 1;
 for user in users_dict_list :
     if user['active'] and user['admin']:
-        print(f"User: {user['name']} is ACTIVE - (ADMIN)")
+        print(f"{line} User: {user['name']} is ACTIVE - (ADMIN)")
     elif user['active']:
-        print(f"User: {user['name']} is ACTIVE")
+        print(f"{line} User: {user['name']} is ACTIVE")
     elif user['admin']:
-        print(f"User: {user['name']} is (ADMIN)")
+        print(f"{line} User: {user['name']} is (ADMIN)")
     else:
-        print(f"User: {user['name']} is Neither Active nor Admin")
+        print(f"{line} User: {user['name']} is Neither Active nor Admin")
+    line += 1
