@@ -27,8 +27,6 @@ data ={
     }
 }
 
-data.strip()
-
 schema = infer_schema([data])
 # Generate CREATE TABLE statement
 statement = generate_json_table_statement('example', schema, managed=True)
