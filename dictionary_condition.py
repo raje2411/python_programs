@@ -28,3 +28,21 @@ for user in users_dict_list :
     else:
         print(f"{line} User: {user['name']} is Neither Active nor Admin")
     line += 1
+
+
+'''
+Output will look like this:-
+
+1 User: Kevin is ACTIVE - (ADMIN)
+2 User: Rajesh is ACTIVE
+3 User: Dinesh is Neither Active nor Admin
+4 User: Amar is (ADMIN)
+5 User: Kevin1 is ACTIVE - (ADMIN)
+6 User: Rajesh1 is ACTIVE
+7 User: Dinesh1 is Neither Active nor Admin
+8 User: Amar1 is (ADMIN)
+9 User: Kevin2 is ACTIVE - (ADMIN)
+10 User: Rajesh2 is ACTIVE
+11 User: Dinesh2 is Neither Active nor Admin
+12 User: Amar2 is (ADMIN)
+'''
