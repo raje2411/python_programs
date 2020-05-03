@@ -7,4 +7,3 @@ Sa    m
 Hari
 There are lot of empty lines above
 This is the new line added using file_append_example.py
-This is the new line added using file_append_example.py
