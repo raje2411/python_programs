@@ -28,7 +28,6 @@ while True:
         print("Oops the entered value is not a number, please retry..")
         continue
 
-#print
 # print(format(math.pi,'.10f'))  - To print pi number.
 print(format(pi,float_precision))
 print(f"The user who ran this program : {getenv('USER') }")

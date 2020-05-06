@@ -1,0 +1,3 @@
+genson==0.2.3
+json2hive==0.1
+scriptgen==0.0.4
