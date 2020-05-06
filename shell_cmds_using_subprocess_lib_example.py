@@ -5,9 +5,9 @@ import subprocess
 def subprocess_run(cmd,default=['pwd']):
     '''
     Create a proc variable and call run method from subprocess to execute.
-    All output is stored in proc variable
+    All output is stored in proc variable which is of <class 'subprocess.CompletedProcess'>
     '''
-    proc = subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    proc = subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)  #Actual execution of shell commands
     print (f"Command executed: {proc.args[:]}")     #To access the commands that it executed
     print (f"Command returncode: {proc.returncode}")    #To check the return code of the commands run
     print(f"\nStdout stored in proc: \n{(proc.stdout).decode()}")   #To get the stdout output in prettier format.   stdout is by default binary stream, which is not formatted.

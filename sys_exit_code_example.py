@@ -49,7 +49,7 @@ if args.limit:
     for line in lines:
         if not line.strip() != "":
             continue
-        new_lines += [line]
+        new_lines.append(line)
     #After cleanup of empty lines, slicing based on the limit
     lines = new_lines[:int(args.limit)]
 
