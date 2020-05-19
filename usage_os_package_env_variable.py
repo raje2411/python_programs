@@ -29,7 +29,7 @@ while True:
         continue
 
 # print(format(math.pi,'.10f'))  - To print pi number.
-print(format(pi,float_precision))
+print(f"Pi is : { format(pi,float_precision) }")
 print(f"The user who ran this program : {getenv('USER') }")
 print(f"This program is executed from the path : {getenv('PWD') }")
 print(f"Dump of all OS env variables:\n\n {os.environ}")
